@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "tape ./test/*.test.js"
+	"istanbul cover tape ./test/*.test.js"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,7 @@
   ],
   "license": "MIT",
   "devDependencies": {
+    "istanbul": "^0.4.5",
     "tape": "^4.9.0"
   }
 }
